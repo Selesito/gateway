@@ -1,0 +1,31 @@
+{
+  "gatewayApp": {
+    "consumerShopTwo": {
+      "home": {
+        "title": "Shop Twos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Shop Two",
+        "createOrEditLabel": "Create or edit a Shop Two",
+        "notFound": "No Shop Twos found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Shop Two {{ id }}?"
+      },
+      "detail": {
+        "title": "Shop Two"
+      },
+      "id": "ID",
+      "shopName": "Shop Name",
+      "owner": "Owner",
+      "category": "Category",
+      "email": "Email"
+    }
+  },
+  "consumerApp": {
+    "consumerShopTwo": {
+      "created": "A new Shop Two is created with identifier {{ param }}",
+      "updated": "A Shop Two is updated with identifier {{ param }}",
+      "deleted": "A Shop Two is deleted with identifier {{ param }}"
+    }
+  }
+}

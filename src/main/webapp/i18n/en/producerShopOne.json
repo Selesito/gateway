@@ -1,0 +1,31 @@
+{
+  "gatewayApp": {
+    "producerShopOne": {
+      "home": {
+        "title": "Shop Ones",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Shop One",
+        "createOrEditLabel": "Create or edit a Shop One",
+        "notFound": "No Shop Ones found"
+      },
+      "delete": {
+        "question": "Are you sure you want to delete Shop One {{ id }}?"
+      },
+      "detail": {
+        "title": "Shop One"
+      },
+      "id": "ID",
+      "shopName": "Shop Name",
+      "owner": "Owner",
+      "category": "Category",
+      "email": "Email"
+    }
+  },
+  "producerApp": {
+    "producerShopOne": {
+      "created": "A new Shop One is created with identifier {{ param }}",
+      "updated": "A Shop One is updated with identifier {{ param }}",
+      "deleted": "A Shop One is deleted with identifier {{ param }}"
+    }
+  }
+}

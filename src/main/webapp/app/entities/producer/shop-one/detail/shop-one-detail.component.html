@@ -1,0 +1,44 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="shopOne">
+      <h2 data-cy="shopOneDetailsHeading"><span jhiTranslate="gatewayApp.producerShopOne.detail.title">Shop One</span></h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ shopOne.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="gatewayApp.producerShopOne.shopName">Shop Name</span></dt>
+        <dd>
+          <span>{{ shopOne.shopName }}</span>
+        </dd>
+        <dt><span jhiTranslate="gatewayApp.producerShopOne.owner">Owner</span></dt>
+        <dd>
+          <span>{{ shopOne.owner }}</span>
+        </dd>
+        <dt><span jhiTranslate="gatewayApp.producerShopOne.category">Category</span></dt>
+        <dd>
+          <span>{{ shopOne.category }}</span>
+        </dd>
+        <dt><span jhiTranslate="gatewayApp.producerShopOne.email">Email</span></dt>
+        <dd>
+          <span>{{ shopOne.email }}</span>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button type="button" [routerLink]="['/shop-one', shopOne.id, 'edit']" class="btn btn-primary">
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

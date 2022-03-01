@@ -1,0 +1,31 @@
+{
+  "gatewayApp": {
+    "producerShopOne": {
+      "home": {
+        "title": "Shop Ones",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Shop One",
+        "createOrEditLabel": "Создать или отредактировать Shop One",
+        "notFound": "Shop Ones не найдено"
+      },
+      "delete": {
+        "question": "Вы уверены что хотите удалить Shop One {{ id }}?"
+      },
+      "detail": {
+        "title": "Shop One"
+      },
+      "id": "ID",
+      "shopName": "Shop Name",
+      "owner": "Owner",
+      "category": "Category",
+      "email": "Email"
+    }
+  },
+  "producerApp": {
+    "producerShopOne": {
+      "created": "Новый Shop One создан с идентификатором {{ param }}",
+      "updated": "Shop One обновлен с идентификатором {{ param }}",
+      "deleted": "Shop One удален с идентификатором {{ param }}"
+    }
+  }
+}
