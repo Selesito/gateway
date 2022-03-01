@@ -2,7 +2,8 @@
   "generator-jhipster:7.7.0": {
     "promptValues": {
       "packageName": "morozov.vu",
-      "nativeLanguage": "ru"
+      "nativeLanguage": "ru",
+      "microservicePath": "C:\\Users\\Vitaliy Morozov\\myProjects\\consumer"
     }
   }
 }
